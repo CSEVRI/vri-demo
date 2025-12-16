@@ -1,75 +1,92 @@
-# 🛡️ CSE Vulnerability Risk Indicator Tool (Standalone Demo)
-Expanded README with project summary and install instructions
-This repository hosts the **offline, standalone version** of the **CSE Vulnerability Risk Indicator Tool**, designed for use by **Designated Safeguarding Leads (DSLs)** and safeguarding professionals in schools.
+🛡️ CSE Vulnerability Risk Indicator Tool (Standalone Demo)
 
-It allows practitioners to complete digital CSE risk assessments, generate reports, track cohorts, and view trend data — all without the need for internet access, installations, or admin rights.
+This repository hosts the offline, standalone Windows version of the CSE Vulnerability Risk Indicator (CSE-VRI).
+The tool is designed for use by Designated Safeguarding Leads (DSLs) and authorised safeguarding staff working in schools.
+It supports structured CSE risk assessment, record-keeping, and review, with a particular focus on online-to-offline exploitation risk. The app runs entirely locally and does not require internet access, installation, or administrator permissions.
 
----
+📦 What’s included:
 
-## 📦 What's Included
+A fully self-contained Windows standalone app
+Portable R runtime bundled with the app (no installation required)
+Structured CSE risk assessment form with weighted indicators
+Safeguarding advice engine linked to selected indicators
+Word report and Action Plan generation
+Local, cumulative assessment logging
+Dashboard showing cohort-level patterns and trends
+DSL Quick Start guide and Technical README
 
-- A fully self-contained Shiny app for Windows
-- Portable R runtime (no installation required)
-- CSV and Word report generation
-- Local assessment logging and dashboard
-- QuickStart installation guide (PDF/DOCX)
+🎯 Purpose:
 
----
+The tool is intended to support frontline safeguarding practice by helping DSLs to:
+Identify and record indicators linked to child sexual exploitation, including digital risk
+Combine professional judgement with a consistent, structured scoring framework
+Review previous assessments for individual pupils using UPN
+Build a local picture of emerging patterns across year groups or cohorts
+Generate clear documentation to support safeguarding files, supervision, and referrals
+The tool is designed as decision support. It does not replace professional judgement, statutory guidance, or local safeguarding procedures.
+The indicator structure and guidance are informed by current safeguarding practice and align with Keeping Children Safe in Education (KCSIE), CERAF / SERAF, and contemporary research on digital and contextual exploitation.
 
-## 🎯 Purpose
+💻 Download, install and run:
 
-This tool supports frontline safeguarding practice by:
-- Identifying risk indicators linked to CSE and online harms
-- Combining professional judgement with structured scoring
-- Logging cumulative assessments for cohort and trend analysis
-- Generating documentation for case files, referrals, or reviews
+🔽 Step 1: Download
 
-It is aligned with **KCSIE 2025**, **CERAF/SERAF**, and emerging digital safeguarding frameworks.
+Go to the Releases page:
+https://github.com/CSEVRI/vri-demo/releases/latest
+Download the latest ZIP file (for example:
+CSEVRI_Standalone_Windows_v2.zip)
 
----
+📂 Step 2: Extract the ZIP
 
-## 💻 How to Install and Use
+Right-click the ZIP file and select Extract All
+Choose a safe location such as your Desktop or a secure work folder
+Do not run the app directly from inside the ZIP file.
 
-### 🔽 Step 1: Download
-- Go to the [Releases page](https://github.com/CSEVRI/vri-demo/releases/latest)
-- Download the latest `.zip` file (e.g. `CSE.Risk.Indicator.Demo.zip`)
+🚀 Step 3: Launch the app
 
-### 📂 Step 2: Extract the ZIP
-- Right-click the ZIP file > **Extract All**
-- Choose a safe location (e.g. Desktop)
+Open the extracted folder
+Double-click Start_App.bat
+A command window will open briefly and the app will launch in your web browser
+If Windows Defender SmartScreen appears:
+Click More info
+Select Run anyway
+This is expected for locally run tools.
 
-### 🚀 Step 3: Launch the App
-- Open the extracted folder
-- Double-click `run_app.bat`
-- If Windows Defender blocks it:
-  - Click **“More info”**, then **“Run anyway”**
+🌐 Step 4: Using the tool
 
-### 🌐 Step 4: Use the Tool
-- The app will open in your browser (Chrome recommended)
-- Complete the risk assessment form
-- Click **Calculate Score**
-- Export as **Word** or **CSV**
-- Clear fields before the next assessment
+The app opens in your default browser (Chrome or Edge recommended)
+Complete the assessment form and select relevant indicators
+The risk score and band update automatically
+Generate Word reports or Action Plans as needed
+Clear fields before starting the next assessment
+The app runs locally at 127.0.0.1. No data leaves your computer.
 
----
+📂 Data storage and confidentiality:
 
-## 📂 Output & Data Storage
+All data are stored locally within the app folder
+Cumulative assessments are saved as CSV files
+Reports are generated as Word documents
+No information is uploaded, transmitted, or shared automatically
+Schools remain responsible for managing access, storage, and retention in line with safeguarding and data-protection policies
 
-All reports and cumulative logs are saved in the `output/` folder inside the app directory.  
-⚠️ No data is transmitted or stored online. The tool runs entirely offline.
+🔄 Updating the app:
 
----
+New versions are released via GitHub Releases.
+To update:
+Download the latest ZIP from the Releases page
+Extract it to a new folder
+Do not mix files from different versions
+Each release may include updates to indicators, advice content, scoring logic, or dashboard functionality.
 
-## 🔄 Updating the App
+🧭 Technical notes:
 
-Check the [Releases](https://github.com/CSEVRI/vri-demo/releases) page for new versions.  
-Each release includes updated scoring, advice logic, and performance improvements.
+The application is implemented as an R Shiny app packaged within a portable R environment for offline use.
+It runs locally in a web browser but does not require hosting, installation, or internet access.
+A separate Technical README is included for IT staff or advanced troubleshooting.
 
----
+📄 Status and use:
 
-## 📄 License & Attribution
-
-This demo tool is maintained for research and safeguarding purposes.  
+This tool is provided as a demo and trial version for research, evaluation, and safeguarding development purposes.
+Feedback from DSLs and safeguarding teams is welcome and helps inform further refinement.
 © 2025 David Blackburn, University of Bradford – For educational and safeguarding use only.
 
 For support or feedback, please contact: d.r.blackburn@bradford.ac.uk
