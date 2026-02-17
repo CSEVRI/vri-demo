@@ -1,14 +1,14 @@
-🛡️ CSE Vulnerability Risk Indicator Tool (Standalone Demo)
+🛡️ Online Harm Risk Assessment Tool (v2.1) and CSE Vulnerability Risk Indicator Tool (v2.0 Standalone Demo)
 
-This repository hosts the offline, standalone Windows version of the CSE Vulnerability Risk Indicator (CSE-VRI).
-The tool is designed for use by Designated Safeguarding Leads (DSLs) and authorised safeguarding staff working in schools.
-It supports structured CSE risk assessment, record-keeping, and review, with a particular focus on online-to-offline exploitation risk. The app runs entirely locally and does not require internet access, installation, or administrator permissions.
+This repository hosts both versions of the offline, standalone Windows version of the CSE and Online Harm Risk Indicators.
+The tools are designed for use by Designated Safeguarding Leads (DSLs) and authorised safeguarding staff working in schools.
+It supports structured online harm and CSE risk assessment, record-keeping, and review, with a particular focus on online-to-offline exploitation risk. The app runs entirely locally and does not require internet access, installation, or administrator permissions.
 
 📦 What’s included:
 
 A fully self-contained Windows standalone app. 
 Portable R runtime is bundled with the app (no installation required).
-The app produces a structured CSE risk assessment form with weighted indicators.
+The app produces a structured risk assessment form with weighted indicators.
 A safeguarding advice engine is linked to selected indicators.
 Word report and Action Plan generation is a feature of the app.
 Local, cumulative assessment logging helps generate KPI's.
