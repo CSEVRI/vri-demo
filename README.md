@@ -88,7 +88,7 @@ A separate Technical README is included for IT staff or advanced troubleshooting
 
 This tool is provided as a demo and trial version for research, evaluation, and safeguarding development purposes.
 Feedback from DSLs and safeguarding teams is welcome and helps inform further refinement.
-© 2025 David Blackburn, University of Bradford – For educational and safeguarding use only.
+For educational and safeguarding use only.
 
 For support or feedback, please contact: d.r.blackburn@bradford.ac.uk
 
