@@ -1,30 +1,38 @@
-🛡️ Online Harm Risk Assessment Tool (v2.1) and CSE Vulnerability Risk Indicator Tool (v2.0 Standalone Demo)
+🛡️ Online Harm Risk Assessment Tool (v2.1) with earlier CSE-focused demo (v2.0)
 
-This repository hosts both versions of the offline, standalone Windows version of the CSE and Online Harm Risk Indicators.
-The tools are designed for use by Designated Safeguarding Leads (DSLs) and authorised safeguarding staff working in schools.
-It supports structured online harm and CSE risk assessment, record-keeping, and review, with a particular focus on online-to-offline exploitation risk. The app runs entirely locally and does not require internet access, installation, or administrator permissions.
+This repository hosts the offline, standalone Windows version of the Online Harm Risk Assessment Tool. The tool is designed for use by Designated Safeguarding Leads (DSLs) and other authorised safeguarding staff working in schools. It supports structured assessment, record-keeping, and review of online harms affecting children and young people, including harms that may overlap with exploitation, coercion, sextortion, grooming, image-based abuse, fraud, and online-to-offline risk.
+
+An earlier CSE-focused demo version is also retained in this repository for developmental and comparison purposes. The current primary version is the Online Harm Risk Assessment Tool v2.1.
+
+The app runs entirely locally and does not require internet access, installation, or administrator permissions.
+
 
 📦 What’s included:
 
-A fully self-contained Windows standalone app. 
-Portable R runtime is bundled with the app (no installation required).
-The app produces a structured risk assessment form with weighted indicators.
-A safeguarding advice engine is linked to selected indicators.
-Word report and Action Plan generation is a feature of the app.
-Local, cumulative assessment logging helps generate KPI's.
-A dashboard is visible showing cohort-level patterns and trends.
-A DSL Quick Start guide and Technical README. We have included a cumulative CSV file with ficticious data so you can get used to the features before completing genuine risk assessments. Simply delete our CSV within the 'app' folder and a new CSV will be generated for your school when the first risk assessment is calculated.
+- A fully self-contained Windows standalone app
+- Portable R runtime bundled with the app, with no installation required
+- A structured risk assessment form with weighted indicators
+- A safeguarding advice engine linked to selected indicators
+- Word report and Action Plan generation
+- Local cumulative assessment logging to support oversight and review
+- A dashboard showing cohort-level patterns and trends
+- A DSL Quick Start Guide and Technical README
+
+A cumulative CSV file with fictitious data is included so users can explore the features before completing genuine assessments. If required, simply delete the example CSV within the app folder and a new CSV will be generated when the first assessment is completed.
 
 🎯 Purpose:
 
 The tool is intended to support frontline safeguarding practice by helping DSLs to:
-Identify and record indicators linked to child sexual exploitation, including digital risk.
-Combine professional judgement with a consistent, structured scoring framework.
-Review previous assessments for individual pupils using UPN.
-Build a local picture of emerging patterns across year groups or cohorts.
-Generate clear documentation to support safeguarding files, supervision, and referrals.
-The tool is designed as decision support. It does not replace professional judgement, statutory guidance, or local safeguarding procedures.
-The indicator structure and guidance are informed by current safeguarding practice and align with Keeping Children Safe in Education (KCSIE), CERAF / SERAF, and contemporary research on digital and contextual exploitation.
+
+- identify and record indicators linked to online harm
+- recognise patterns that may suggest exploitation, coercion, grooming, image-based abuse, or other digitally mediated safeguarding concerns
+- combine professional judgement with a consistent structured framework
+- review previous assessments for individual pupils using UPN
+- build a local picture of emerging patterns across year groups or cohorts
+- generate clear documentation to support safeguarding files, supervision, referrals, and multi-agency discussion
+
+The tool is designed as decision support. It does not replace professional judgement, statutory guidance, or local safeguarding procedures. The indicator structure and guidance are informed by current safeguarding practice and align with Keeping Children Safe in Education (KCSIE), CERAF / SERAF, and contemporary research on online harm, exploitation, and contextual safeguarding.
+
 
 💻 Download, install and run:
 
