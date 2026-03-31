@@ -41,7 +41,7 @@ The tool is designed as decision support. It does not replace professional judge
 Go to the Releases page:
 https://github.com/CSEVRI/vri-demo/releases/latest
 Download the latest ZIP file (for example:
-CSEVRI_Standalone_Windows_v2.zip)
+Online_Harm_Risk_Indicator_Standalone_Windows_v2_1.zip)
 
 📂 Step 2: Extract the ZIP
 
